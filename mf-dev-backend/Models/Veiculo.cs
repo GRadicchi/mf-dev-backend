@@ -13,8 +13,10 @@ namespace mf_dev_backend.Models
         [Required(ErrorMessage = "Obrigatório Inserir a Placa")]
         public string Placa { get; set; }
         [Required(ErrorMessage = "Obrigatório Inserir o Ano de Fabricacao")]
+        [Display(Name = "Ano de Fabricacao")]
         public int AnoFabricacao { get; set; }
         [Required(ErrorMessage = "Obrigatório Inserir o Ano do Modelo")]
+        [Display(Name = "Ano do Modelo")]
         public int AnoModelo { get; set; }
     }
 }
