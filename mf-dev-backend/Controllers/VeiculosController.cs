@@ -124,7 +124,7 @@ namespace mf_dev_backend.Controllers
             ViewBag.Veiculo = veiculo;
             ViewBag.Total = total;
 
-            return View();
+            return View(consumos);
         }
     }
 }
